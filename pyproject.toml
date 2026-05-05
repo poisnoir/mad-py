@@ -1,11 +1,12 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "mad"
 version = "0.1.0"
+description = "fast binary serializer"
 requires-python = ">=3.11"
 
-[tool.setuptools]
-py-modules = ["mad"]
+[tool.setuptools.packages.find]
+where = ["src"]

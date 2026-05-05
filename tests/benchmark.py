@@ -2,7 +2,7 @@ import timeit
 import json
 import pickle
 import dataclasses
-from mad import Mad, MadType
+from src.mad.mad import Mad, MadType
 
 # 1. Define a complex nested structure to stress-test the library
 @dataclasses.dataclass

@@ -1,6 +1,6 @@
 import unittest
 from dataclasses import dataclass
-from mad import Mad, MadType
+from src.mad.mad import Mad, MadType
 
 @dataclass
 class Stats:
