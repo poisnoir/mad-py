@@ -1,3 +1,3 @@
-from .mad import Mad, MadType
+from .core import Mad, MadType
 
 __all__ = ["Mad", "MadType"]
